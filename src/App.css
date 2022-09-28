@@ -1,0 +1,141 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: #151515;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.title{
+  font-family: 'Dangrek', cursive;
+  font-size: 60px;
+  color: white;
+}
+
+
+#frase{
+  border: none;
+  border-bottom: 2px solid white;
+  outline: 0;
+  background-color: transparent;
+  width: 100%;
+  font-size: 16px;
+  padding-bottom: 10px;
+  color: white;
+  margin-top: 60px;
+}
+
+#autor{
+  border: none;
+  border-bottom: 2px solid white;
+  outline: 0;
+  background-color: transparent;
+  width: 100%;
+  font-size: 16px;
+  padding-bottom: 10px;
+  color: white;
+  margin-top: 30px;
+}
+
+.linha{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+#cadastrar{
+  margin-right: 20px;
+}
+
+#error{
+  background-color: #2E2E2E;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 60px;
+  border-radius: 20px;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+
+.error{
+  font-size: 24px;
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+
+}
+.img-error{
+  width: 50px;
+}
+
+
+#verificar{
+  background-color: #2E2E2E;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 60px;
+  border-radius: 20px;
+  transform: translate(-50%,-50%);
+  display: none;
+  font-weight: 800;
+}
+
+.sucesso{
+  font-size: 24px;
+  color: green;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+#resultado_frase{
+  font-size: 23px;
+  margin-top: 100px;
+}
+
+
+#resultado_autor{
+  font-size: 20px;
+  color: gray;
+
+}
+
+.butto{
+  background-color: #0F0E0E;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+
+.butto-ok{
+  background-color: #3F3F3F;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+
+.msg{
+  font-weight: 500;
+}
